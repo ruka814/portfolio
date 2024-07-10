@@ -8,6 +8,25 @@ body{
 header{
     background: #255;
     color: #fff;
-    padding: 1rem 0;
+    padding: 10rem 0;
     text-align: center;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#works .work {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#works .work img {
+    width: 100%;
+    height: auto;
 }
