@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(250, 247, 247);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,10 +11,10 @@ header{
     padding: 0;
     font-family: Arial, sans-serif;
     height: 100vh;
-    background-image: url('back.png'); /* 背景画像のURL */
-    background-size: cover; /* 画像をコンテナ全体にカバー */
-    background-position: center; /* 画像を中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返さない */
+    background-image: url('back3.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .content {
@@ -43,4 +44,13 @@ section {
 #works .work img {
     width: 100%;
     height: auto;
+}
+
+#works .work video {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 100px;
 }
