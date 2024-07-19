@@ -68,3 +68,26 @@ form {
     margin: 0 auto;
     text-align: left;
 }
+
+.my-social {
+    grid-area: social;  /* mainタグのGridテンプレートの「social」に配置 */
+    display: flex; /* .my-social内部をフレキシブル表示に切り替え（標準で横並びになります） */
+    margin-top: 1.5rem; /* 上部に1.5文字分の外部余白を設定 */
+  }
+  /* class="my-social"の中のli */
+.my-social li {
+    line-height: 1; /* 文字高さを1文字分とする */
+    margin-right: 1rem; /* 右側に1文字分の外側余白をつける */
+    font-size: 2rem; /* アイコン(文字)のサイズを2文字分とする */
+  }/* class="my-social"の中のliの中のa */
+.my-social li a {
+    display: inline-block; /* リンクテキストをインラインブロック要素として表示 */
+    text-decoration: none;  /* リンクテキストの装飾をなくす */
+    color: var(--text-color);  /* 文字色をデフォルトのリンクカラーからこの文書の文字色へ変更 */
+    cursor: pointer; /* この要素にマウスオーバーしたとき、マウスカーソルを指に変更 */
+    transition: 1s color; /* 文字色が変化する場合、１秒かけて変化させる定義 */
+  }
+  /* class="my-social"の中のliの中のaにマウスカーソルが乗った時 */
+.my-social li a:hover {
+    color: rgb(0, 0, 0);  /* 文字色を変える(任意の文字色に変えて良い) */
+  }
